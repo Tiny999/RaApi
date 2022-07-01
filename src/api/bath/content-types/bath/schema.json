@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "baths",
+  "info": {
+    "singularName": "bath",
+    "pluralName": "baths",
+    "displayName": "Bath",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "itemType": {
+      "type": "string"
+    },
+    "flowRate": {
+      "type": "string"
+    },
+    "mountType": {
+      "type": "string"
+    },
+    "finish": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "connectionSize": {
+      "type": "string"
+    },
+    "options": {
+      "type": "json"
+    },
+    "price": {
+      "type": "string"
+    },
+    "luxuryPrice": {
+      "type": "string"
+    },
+    "baseClass": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "luxuryThumbnail": {
+      "type": "string"
+    },
+    "previewImage": {
+      "type": "string"
+    },
+    "isLuxury": {
+      "type": "boolean"
+    }
+  }
+}
